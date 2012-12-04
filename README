@@ -1,0 +1,21 @@
+Jetty instances manager
+
+This started as a proof of concepts, the idea is to provide a simple REST api to manage different running application instances, and by manage i mean basic operations like START, and STOP.
+
+Starting the application
+
+Once you clone this repo you can start manager application by moving to the bin folder and running :
+
+$ chmod +x start.sh
+$ chmod +x stop.sh
+
+$ ./start.sh
+
+This will start application on port 4000
+
+To stop application run stop script:
+
+$ ./stop.sh
+
+
+
