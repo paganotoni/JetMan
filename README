@@ -2,6 +2,18 @@ Jetty instances manager
 
 This started as a proof of concepts, the idea is to provide a simple REST api to manage different running application instances, and by manage i mean basic operations like START, and STOP.
 
+Configuration
+
+Application assumes you own a s3 bucket where you will store your application wars for deployment, application needs to have access to your bucket, this credentials can be set on aws-credentias.properties file, which initially will look like:
+
+accessKey=[accessKey]
+secretKey=[secretKey]
+
+Theres also another file called manager-config.properties, it contains multiple settings related to the manager application.
+
+[Important]
+You must set 'runner.deployerFolder' to point the folder where you cloned InstanceManager before starting it.
+
 Starting the application
 
 Once you clone this repo you can start manager application by moving to the bin folder and running :
