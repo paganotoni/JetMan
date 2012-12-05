@@ -1,4 +1,4 @@
-Jetty instances manager
+JetMan (Jetty instances manager)
 
 This started as a proof of concepts, the idea is to provide a simple REST api to manage different running application instances, and by manage i mean basic operations like START, and STOP.
 
