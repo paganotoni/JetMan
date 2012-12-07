@@ -34,19 +34,19 @@ Basic Actions :
 [Instances]
 
 - List instances 
-	URL						/API/instance [GET]
+	URL: /API/instance [GET]
 
 - Create an insance 
-	URL						/API/instance [POST]
+	URL: /API/instance [POST]
 	Required Parameters
-	- 	port 				port where insance will run
-	- 	name 				an identifier name
-	-	bucketWarName		name of the war on the bucket dir
+	- port : port where insance will run
+	- name : an identifier name
+	- bucketWarName : name of the war on the bucket dir
 
 - Create an insance 
-	URL						/API/instance [DELETE]
+	URL: /API/instance [DELETE]
 	Required Parameters
-	- 	name 				identifier name of the instance to drop
+	- name : identifier name of the instance to drop
 
 
 
