@@ -1,0 +1,36 @@
+2012-12-08 23:09:22.151:WARN:omjr.Runner:No tx manager found
+2012-12-08 23:09:22.195:INFO:omjr.Runner:Deploying file:/Users/antoniopagano/Projects/JetMan/apps/58646080-6982-4099-91e1-8bce98b586c4.war @ /
+[o.e.j.w.WebAppContext{/,null},file:/Users/antoniopagano/Projects/JetMan/apps/58646080-6982-4099-91e1-8bce98b586c4.war]
+2012-12-08 23:09:22.213:INFO:oejs.Server:jetty-7.x.y-SNAPSHOT
+2012-12-08 23:09:22.244:INFO:oejw.WebInfConfiguration:Extract jar:file:/Users/antoniopagano/Projects/JetMan/apps/58646080-6982-4099-91e1-8bce98b586c4.war!/ to /private/var/folders/c0/99glvyrx02s5k7tj210rttz80000gn/T/jetty-0.0.0.0-1212-58646080-6982-4099-91e1-8bce98b586c4.war-_-any-/webapp
+2012-12-08 23:09:24.131:INFO:oejpw.PlusConfiguration:No Transaction manager found - if your webapp requires one, please configure one.
+2012-12-08 23:09:25.028:INFO:/:Initializing Spring root WebApplicationContext
+2012-12-08 23:09:30.996:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/,file:/private/var/folders/c0/99glvyrx02s5k7tj210rttz80000gn/T/jetty-0.0.0.0-1212-58646080-6982-4099-91e1-8bce98b586c4.war-_-any-/webapp/},file:/Users/antoniopagano/Projects/JetMan/apps/58646080-6982-4099-91e1-8bce98b586c4.war
+2012-12-08 23:09:31.081:INFO:/:Initializing Spring FrameworkServlet 'grails'
+2012-12-08 23:09:31.093:INFO:oejs.NCSARequestLog:Opened /Users/antoniopagano/Projects/JetMan/logs/58646080-6982-4099-91e1-8bce98b586c4.war.log
+2012-12-08 23:09:31.123:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:1212
+2012-12-08 23:11:15.572:INFO:/:Destroying Spring FrameworkServlet 'grails'
+2012-12-08 23:11:15.759:INFO:/:Closing Spring root WebApplicationContext
+2012-12-08 23:11:15.762:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2012-12-08 23:11:15.762:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/,file:/private/var/folders/c0/99glvyrx02s5k7tj210rttz80000gn/T/jetty-0.0.0.0-1212-58646080-6982-4099-91e1-8bce98b586c4.war-_-any-/webapp/},file:/Users/antoniopagano/Projects/JetMan/apps/58646080-6982-4099-91e1-8bce98b586c4.war
+2012-12-08 23:11:15.857:INFO:oejut.ShutdownThread:shutdown already commenced
+2012-12-08 23:12:12.445:WARN:omjr.Runner:No tx manager found
+ERROR: Context 'file:/Users/antoniopagano/Projects/JetMan/apps/58646080-6982-4099-91e1-8bce98b586c4.war' does not exist
+Usage: java [-DDEBUG] [-Djetty.home=dir] -jar jetty-runner.jar [--help|--version] [ server opts] [[ context opts] context ...] 
+Server Options:
+ --version                          - display version and exit
+ --log file                         - request log filename (with optional 'yyyy_mm_dd' wildcard
+ --out file                         - info/warn/debug log filename (with optional 'yyyy_mm_dd' wildcard
+ --port n                           - port to listen on (default 8080)
+ --stop-port n                      - port to listen for stop command
+ --stop-key n                       - security string for stop command (required if --stop-port is present)
+ --jar file                         - a jar to be added to the classloader
+ --jdbc classname properties jndiname - classname of XADataSource or driver; properties string; name to register in jndi
+ --lib dir                          - a directory of jars to be added to the classloader
+ --classes dir                      - a directory of classes to be added to the classloader
+ --txFile                           - override properties file for Atomikos
+ --stats [unsecure|realm.properties] - enable stats gathering servlet context
+ --config file                      - a jetty xml config file to use instead of command line options
+Context Options:
+ --path /path       - context path (default /)
+ context            - WAR file, web app dir or context.xml file

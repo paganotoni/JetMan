@@ -1,0 +1,11 @@
+2012-12-08 22:49:24.700:WARN:omjr.Runner:No tx manager found
+2012-12-08 22:49:24.744:INFO:omjr.Runner:Deploying file:/Users/antoniopagano/Projects/JetMan/apps/3d0225ed-1f3f-4543-910d-8f17f3ac2306.war @ /
+[o.e.j.w.WebAppContext{/,null},file:/Users/antoniopagano/Projects/JetMan/apps/3d0225ed-1f3f-4543-910d-8f17f3ac2306.war]
+2012-12-08 22:49:24.762:INFO:oejs.Server:jetty-7.x.y-SNAPSHOT
+2012-12-08 22:49:24.793:INFO:oejw.WebInfConfiguration:Extract jar:file:/Users/antoniopagano/Projects/JetMan/apps/3d0225ed-1f3f-4543-910d-8f17f3ac2306.war!/ to /private/var/folders/c0/99glvyrx02s5k7tj210rttz80000gn/T/jetty-0.0.0.0-1212-3d0225ed-1f3f-4543-910d-8f17f3ac2306.war-_-any-/webapp
+2012-12-08 22:49:26.621:INFO:oejpw.PlusConfiguration:No Transaction manager found - if your webapp requires one, please configure one.
+2012-12-08 22:49:27.442:INFO:/:Initializing Spring root WebApplicationContext
+2012-12-08 22:49:32.625:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/,file:/private/var/folders/c0/99glvyrx02s5k7tj210rttz80000gn/T/jetty-0.0.0.0-1212-3d0225ed-1f3f-4543-910d-8f17f3ac2306.war-_-any-/webapp/},file:/Users/antoniopagano/Projects/JetMan/apps/3d0225ed-1f3f-4543-910d-8f17f3ac2306.war
+2012-12-08 22:49:32.699:INFO:/:Initializing Spring FrameworkServlet 'grails'
+2012-12-08 22:49:32.711:INFO:oejs.NCSARequestLog:Opened /Users/antoniopagano/Projects/JetMan/logs/3d0225ed-1f3f-4543-910d-8f17f3ac2306.war.log
+2012-12-08 22:49:32.733:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:1212
